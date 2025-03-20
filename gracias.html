@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <!-- Font Awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- Page name -->
+    <title>Gracias</title>
+    <style>
+        body {
+            background-color: #121212;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+
+        .ticket-container {
+            background-color: #1f1f1f;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+            width: 580px;
+            text-align: center;
+            border: 1px solid #ffa500;
+            position: relative;
+        }
+
+       
+
+        .ticket-container:before {
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom: none;
+        }
+
+        .ticket-container:after {
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-top: none;
+        }
+
+        h1 {
+            color: #ffa500;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        .details {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .details p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        .thank-you {
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .ticket-icon {
+            font-size: 60px;
+            color: #ffa500;
+            margin-bottom: 15px;
+        }
+
+        .btn-action {
+            background-color: #ffa500;
+            color: #fff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            width: 100%;
+            margin-top: 25px;
+        }
+
+        .btn-action:hover {
+            background-color: #ff8c00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ticket-container">
+        <img src="/IMAGENES/CABALLO.png" alt="" style="width: 80px;">
+        <h1>¡Felicidades, una de las 100 RTR 310 está separada para ti!</h1>
+        <p class="thank-you">A partir de este momento, tienes 10 días para completar el proceso, hacer el pago de tu anticipo y definir como quieres comprarla, a crédito o contado.</p>
+
+        <div class="details">
+          
+        </div>
+
+        <p class="footer">Gracias por confiar en nosotros. ¡Esperamos verte pronto!</p>
+    </div>
+</body>
+
+</html>
